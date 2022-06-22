@@ -1,2 +1,2 @@
-cript that prints the absolute path name
+cript that prints the absolute path name.
 

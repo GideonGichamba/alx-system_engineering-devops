@@ -8,3 +8,4 @@
 8 Move the file betty from /tmp/ to /tmp/my_first_directory.
 8.Delete the file betty.
 9.Bye bye My first directory
+10.script that changes the working directory to the previous one

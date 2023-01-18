@@ -3,7 +3,7 @@
 # custom header (on both web-01 and web-02 servers) 
 
 # Clone my repo and setup the server
-git clone https://github.com/habimanasharif/alx-system_engineering-devops.git
+git clone https://github.com/GideonGichamba/alx-system_engineering-devops.git
 cd alx-system_engineering-devops/0x0C-web_server || exit
 ./1-install_nginx_web_server
 ./3-redirection
@@ -16,4 +16,4 @@ new_url=$(echo "\tserver_name _;\n\tadd_header X-Served-By $HOSTNAME;")
 sudo sed -i "s/\tserver_name _;/$new_url/" /etc/nginx/sites-available/default
 sudo sed -i "s/\tserver_name _;/$new_url/" /etc/nginx/sites-enabled/default
 
-sudo service nginx restart
+sudo service nginx restarti
